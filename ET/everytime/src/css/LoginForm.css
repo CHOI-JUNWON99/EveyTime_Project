@@ -1,0 +1,82 @@
+/* LoginForm.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 전체 화면 높이 */
+    background: white; /* 배경색 지정 */
+  }
+  
+  .title-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 2.5rem; /* 타이틀 크기 */
+    color: black; /* 타이틀 색상 */
+  }
+  
+  .subtitle {
+    margin: 0;
+    font-size: 1rem; /* 서브타이틀 크기 */
+    color: grey; /* 서브타이틀 색상 */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* 폼 너비 */
+    max-width: 320px; /* 최대 폼 너비 */
+  }
+  
+  .login-input {
+    background: #f7f7f7; /* 입력 필드 배경색 */
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .login-button {
+    background: black; /* 버튼 배경색 */
+    color: white; /* 버튼 텍스트 색상 */
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .footer-text {
+    color: grey;
+    font-size: 0.75rem;
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 320px; /* 폼과 동일한 최대 너비 */
+  }
+  
+  .auth-link {
+    color: grey;
+    font-size: 0.875rem; /* 적절한 크기로 조정 */
+    text-decoration: none; /* 밑줄 없애기 */
+    padding: 0.5rem;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline; /* 마우스 호버 시 밑줄 표시 */
+  }
+  
